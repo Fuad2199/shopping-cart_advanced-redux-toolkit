@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:wght@200;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-bar {
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem;
+}
+.nav-bar h2 {
+    font-size: 40px;
+}
+.nav-bag {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 14px;
+    right: 20px;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: yellow;
+}
+.bag-quantity {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    background: blue;
+    border: 50%;
+    border-radius: 50%;
+    list-style-type: none;
+    top: 25px;
+    right: 22px;
+}
+.not-found {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 88vh;
+}
+.not-found h2 {
+    font-size: 55px;
+}
+.not-found p {
+    font-size: 20px;
+}
+.back-btn {
+    padding: 10px;
+}
