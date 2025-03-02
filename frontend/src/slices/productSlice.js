@@ -3,8 +3,8 @@ import axios from "axios"
 
 const initialState = {
   items: [],
-  status: null,
-  error: null
+  status: null, //watchs async promises
+  error: null //if error message unsuccess when we give error message
 };
 
 export const productsFetch = createAsyncThunk(
