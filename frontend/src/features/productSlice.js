@@ -10,10 +10,10 @@ const initialState = {
 export const productsFetch = createAsyncThunk(
   "products/productsFetch",
   async (_, { rejectWithValue }) => {
-    const productAPI = "http://localhost:5000/products"
+    const productsAPI = "http://localhost:5000/products"
     try {
-      const response = await axios.get(productAPI);
-      return response.data.products;
+      const response = await axios.get(productsAPI);
+      return response.data;
     } catch (error) {
         return rejectWithValue(error.response.data)
     }

@@ -1,9 +1,9 @@
 import { Route, Routes, useLocation } from "react-router-dom";
-import { Home } from "./Home";
 import { Navbar } from "./Navbar";
 import { Cart } from "./Cart";
 import { NotFound } from "../pages/NotFound";
 import { About } from "../pages/About";
+import Home from "../pages/Home";
 
 const AppContent = () => {
     const location = useLocation();
